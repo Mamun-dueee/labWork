@@ -1,0 +1,6 @@
+The time function returns the current time (as a time_t value) in seconds since some
+ point (on Unix systems, since midnight UTC January 1, 1970), and it takes one argument,
+ a time_t pointer in which the time is stored. Passing NULL as the argument 
+causes time to return the time as a normal return value but not store it anywhere else.
+
+link: http://stackoverflow.com/questions/10984974/why-do-people-say-there-is-modulo-bias-when-using-a-random-number-generator
