@@ -1,6 +1,8 @@
 # Random Number Generator (*Using C*)
 **Bold** *First of all I have to learn markdown.*
-[Imgur](http://i.imgur.com/7zzSmX8.png)
+
+![Imgur](http://i.imgur.com/7zzSmX8.png)
+
 [Link](http://google.com)
 
 > rand()
@@ -19,9 +21,9 @@ a new random number.
 2. `srand()` 
 3. `time()`
 
-...
+```
 for(i=0; i<5; i++){
 	printf("%d\n", rand());
 }
-...
+```
 
