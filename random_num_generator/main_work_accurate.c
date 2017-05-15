@@ -10,16 +10,23 @@ void main()
     scanf("%d", &n);
     printf("Enter the Upper limit of random number: ");
     scanf("%d", &m);
+    printf("RAND_MAX = %d\n", RAND_MAX);
 
-    printf("Output: %d random number(s) between 0 - %d \n", n, m);
+    printf("Output(using RAND_MAX): %d random number(s) between 0 - %d \n", n, m);
     for(i=0; i<n; i++)
     {
         do {
             x = rand();
         } while (x >= (RAND_MAX - RAND_MAX % m ));
 
-        x %= m;
-        printf("%d\n", x);
+        //x %= m;
+        printf("%d ---> %d\n", x, x%m);
+    }
+
+    printf("Output (using modulus): \n");
+    for(i=0; i<n; i++)
+    {
+        printf("%d ---> %d\n", rand(), rand()%m);
     }
 
 }
