@@ -50,6 +50,7 @@ The second two input is the range within which we have to generate random number
 
 ### Output:
 A set of random number within the given range.The following figure shows the output. 
+
 ![Imgur](http://i.imgur.com/hndDhN6.png)
 
 ### Discussion: 
@@ -58,5 +59,5 @@ But if we set `srand()` to different numbers in different time, the `rand()` fun
 between 0 to `RAND_MAX` . So we set `srand()` to current time by `time()` function to produce different random number 
 everytime. 
 
-### Referencs: 
+### Referenc: 
 1. [Stackoverflow](http://stackoverflow.com/questions/18254325/random-number-generator-in-c)
