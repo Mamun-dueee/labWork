@@ -1,8 +1,8 @@
 ## Random Number Generation
 
 ### Problem Description: 
-	We have to generate a set of random number with a range given by 
-	the user.How many random number have to generate also given by user.
+We have to generate a set of random number with a range given by 
+the user.How many random number have to generate also given by user.
 	
 ### Algorithm:
 Step 1: Start.
@@ -14,7 +14,7 @@ Step 6: Print those number.
 Step 7: End.
 
 ### Source Code:  *C programming language*
-```
+```c
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
