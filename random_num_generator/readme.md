@@ -49,5 +49,14 @@ The first input from user is the number of random number to generate.
 The second two input is the range within which we have to generate random numbers.
 
 ### Output:
-A set of random number within the given range.
+A set of random number within the given range.The following figure shows the output. 
+![Imgur](http://i.imgur.com/hndDhN6.png)
 
+### Discussion: 
+`rand()` function returns a pseudorandom number, that means it returns same number everytime it runs. 
+But if we set `srand()` to different numbers in different time, the `rand()` function return true random number
+between 0 to `RAND_MAX` . So we set `srand()` to current time by `time()` function to produce different random number 
+everytime. 
+
+### Referencs: 
+1. [Stackoverflow](http://stackoverflow.com/questions/18254325/random-number-generator-in-c)
