@@ -59,5 +59,5 @@ But if we set `srand()` to different numbers in different time, the `rand()` fun
 between 0 to `RAND_MAX` . So we set `srand()` to current time by `time()` function to produce different random number 
 everytime. 
 
-### Referenc: 
-1. [Stackoverflow](http://stackoverflow.com/questions/18254325/random-number-generator-in-c)
+### Reference: 
+1. [Stackoverflow.com](http://stackoverflow.com/questions/18254325/random-number-generator-in-c)
