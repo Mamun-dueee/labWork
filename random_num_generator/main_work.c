@@ -11,6 +11,7 @@ void main()
     printf("Enter the random number range: \n");
     scanf("%d %d", &a, &b);
     m = b-a+1;
+    printf("%d random number from %d to %d are:\n", n, a, b);
     for(i=0; i<n; i++)
     {
         r = (rand()%m) + a;
