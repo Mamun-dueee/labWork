@@ -19,7 +19,8 @@ Step 6: Print those number.
 
 Step 7: End.
 
-### Source Code:  #### *C programming language*
+### Source Code: 
+(*C programming language*)
 ```c
 #include<stdio.h>
 #include<stdlib.h>
