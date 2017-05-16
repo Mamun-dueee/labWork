@@ -6,14 +6,21 @@ the user.How many random number have to generate also given by user.
 	
 ### Algorithm:
 Step 1: Start.
+
 Step 2: Initialize variables.
+
 Step 3: Prompt to user.
+
 Step 4: Take input from user.
+
 Step 5: Generate random numbers.
+
 Step 6: Print those number.
+
 Step 7: End.
 
-### Source Code:  *C programming language*
+### Source Code: 
+(*C programming language*)
 ```c
 #include<stdio.h>
 #include<stdlib.h>
