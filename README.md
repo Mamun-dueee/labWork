@@ -21,7 +21,7 @@ a new random number.
 2. `srand()` 
 3. `time()`
 
-```
+```c
 for(i=0; i<5; i++){
 	printf("%d\n", rand());
 }
